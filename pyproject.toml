@@ -1,0 +1,16 @@
+[project]
+name = "rag-chatbot-gemini"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.0.8",
+    "dotenv>=0.9.9",
+    "google-generativeai>=0.8.5",
+    "gradio>=5.29.0",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.23",
+    "langchain-google-genai>=2.0.10",
+    "pypdf>=5.4.0",
+]
