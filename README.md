@@ -44,7 +44,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built with Gradio and Google's Ge
 1. Run the application:
 
    ```bash
-   python rag_chatbot.py
+   python main.py
    ```
 
 2. Open your browser and navigate to http://localhost:7860 (or the port you specified)
@@ -62,17 +62,17 @@ A Retrieval-Augmented Generation (RAG) chatbot built with Gradio and Google's Ge
 
 You can configure the following options in your `.env` file:
 
-| Variable              | Description                          | Default    |
-| --------------------- | ------------------------------------ | ---------- |
-| `GEMINI_API_KEY`      | Your Google Gemini API key           | None       |
-| `GEMINI_MODEL`        | The Gemini model to use              | gemini-pro |
-| `DEFAULT_TEMPERATURE` | Control randomness (0.0-1.0)         | 0.7        |
-| `PORT`                | Server port for the Gradio interface | 7860       |
-| `SHARE`               | Whether to create a public link      | false      |
+| Variable              | Description                          | Default          |
+| --------------------- | ------------------------------------ | ---------------- |
+| `GEMINI_API_KEY`      | Your Google Gemini API key           | None             |
+| `GEMINI_MODEL`        | The Gemini model to use              | gemini-2.0-flash |
+| `DEFAULT_TEMPERATURE` | Control randomness (0.0-1.0)         | 0.7              |
+| `PORT`                | Server port for the Gradio interface | 7860             |
+| `SHARE`               | Whether to create a public link      | false            |
 
 ## Project Structure
 
-- `rag_chatbot.py` - Main application file
+- `main.py` - Main application file
 - `config.py` - Configuration handling
 - `requirements.txt` - Required Python packages
 - `.env` - Environment variables (create this from .env.example)
